@@ -18,8 +18,9 @@ import javafx.stage.Stage;
  */
 public class Selfienator extends Application
 {
-	
-	@Override
+	/**
+	 * Starts my app
+	 */
     public void start(Stage stage) throws Exception {
        Parent root = FXMLLoader.load(getClass().getResource("MainWindow.fxml"));
     
