@@ -21,11 +21,11 @@ public class Selfienator extends Application
 	
 	@Override
     public void start(Stage stage) throws Exception {
-       Parent root = FXMLLoader.load(getClass().getResource("fxml_example.fxml"));
+       Parent root = FXMLLoader.load(getClass().getResource("MainWindow.fxml"));
     
         Scene scene = new Scene(root, 300, 275);
     
-        stage.setTitle("FXML Welcome");
+        stage.setTitle("Selfienator");
         stage.setScene(scene);
         stage.show();
     }

@@ -19,5 +19,4 @@
       <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="1" />
       <ComboBox prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
    </children>
-
 </GridPane>
