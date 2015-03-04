@@ -22,7 +22,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
 /**
- *
+ * my Main class
  * @author Matej
  */
 public class Selfienator extends Application
