@@ -18,16 +18,35 @@ import javafx.stage.Stage;
  */
 public class Selfienator extends Application
 {
+	private StringProperty textPrvy;
+	
+	public string getTextPrvy()
+    {
+        return textPrvy.get();
+    }
+
+    public void setTextPrvy(string value)
+    {
+    	textPrvy.set(value);
+    }
+	
+    public StringProperty textPrvyProperty() {
+        return textPrvy;
+    }
+    
 	/**
 	 * Starts my app
 	 */
     public void start(Stage stage) throws Exception {
-       Parent root = FXMLLoader.load(getClass().getResource("MainWindow.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("MainWindow.fxml"));
     
         Scene scene = new Scene(root, 300, 275);
     
         stage.setTitle("Selfienator");
         stage.setScene(scene);
+        
+        setTextPrvy("Ahoj");
+        
         stage.show();
     }
 	
