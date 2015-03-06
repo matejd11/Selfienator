@@ -3,5 +3,5 @@ package selfienator;
 public interface IMotor {
 	public String name = "Motor";
 
-	public void moveTo(int angel, Directions dir);
+	public void moveTo(double angle, Directions dir);
 }

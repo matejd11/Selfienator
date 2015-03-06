@@ -15,17 +15,17 @@ public class Commander implements ICommands, IMotorControler {
 	}
 
 	@Override
-	public void moveTo(int x, int y) {
+	public void moveTo(double x, double y) {
 		moveTo(x, y, Directions.CLOCKWAISE);
 	}
 
 	@Override
-	public void moveTo(int x, int y, Directions dir) {
+	public void moveTo(double x, double y, Directions dir) {
 		moveTo(x, y, dir);
 	}
 
 	@Override
-	public void moveTo(int x, int y, Directions dirX, Directions dirY) {
+	public void moveTo(double x, double y, Directions dirX, Directions dirY) {
 		x = x % 360;
 		y = y % 360;
 

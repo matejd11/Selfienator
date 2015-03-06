@@ -1,15 +1,9 @@
 package selfienator;
 
-import selfienator.Directions;
-import selfienator.IMotor;
-
 public class Motor implements IMotor {
 
 	public String name;
-
-	public Motor() {
-
-	}
+	private double angle = 0;
 
 	public Motor(Axis axis) {
 		if (Axis.X == axis) {
@@ -22,8 +16,14 @@ public class Motor implements IMotor {
 	}
 
 	@Override
-	public void moveTo(int angel, Directions dir) {
-
+	public void moveTo(double angle, Directions dir) {
+		this.angle = angle;
 	}
 
+	/**
+	 * @return the angle
+	 */
+	public double getAngle() {
+		return angle;
+	}
 }
