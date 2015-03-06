@@ -16,7 +16,7 @@ import javafx.stage.Stage;
 /**
  * my Main class
  * 
- * @author Matej
+ * @author Matej, Marek
  */
 public class Selfienator extends Application {
 	private SimpleStringProperty textPrvy;
@@ -54,8 +54,7 @@ public class Selfienator extends Application {
 	}
 
 	/**
-	 * @param args
-	 *            the command line arguments
+	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
 		launch(args);
