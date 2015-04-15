@@ -11,7 +11,7 @@
 
 <FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button mnemonicParsing="false" text="${controller.textPrvy}" />
+      <Button mnemonicParsing="false" text="${controller.textPrvyProperty}" />
       <Button mnemonicParsing="false" text="Button" />
       <Button mnemonicParsing="false" text="Button" />
    </children>
